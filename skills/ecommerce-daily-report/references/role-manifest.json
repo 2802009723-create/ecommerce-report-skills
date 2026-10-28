@@ -1,0 +1,300 @@
+{
+  "package": "ecommerce-daily-report",
+  "packaged_on": "2026-10-28",
+  "role_count": 23,
+  "protocol_version": "1.2",
+  "role_method_version": "0.4",
+  "roles": [
+    {
+      "id": "AG01",
+      "name": "数据理解与校验",
+      "identity": "多平台电商数据口径与质量校验员",
+      "category": "公共能力",
+      "business_domain": "data_quality",
+      "dependencies": [],
+      "file": "roles/AG01.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "f9d7213076fcb0060df6cffeeb0faf534688c6d850ddbe2105b5a788dc0119e3"
+    },
+    {
+      "id": "AG02",
+      "name": "库存核对",
+      "identity": "多仓多渠道库存对账与可售库存分析员",
+      "category": "库存供应链",
+      "business_domain": "inventory",
+      "dependencies": [],
+      "file": "roles/AG02.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "fa5c625b503e8d41a6dced4fb8c360a275a05d67d5431299491d42787e1f060f"
+    },
+    {
+      "id": "AG03",
+      "name": "销售经营分析",
+      "identity": "多平台电商销售经营分析员",
+      "category": "经营分析",
+      "business_domain": "sales",
+      "dependencies": [],
+      "file": "roles/AG03.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "66022d2c5ffe5e57e76a87fe33d13eea41246dfe02f35463a9d98eebe70b2a8d"
+    },
+    {
+      "id": "AG04",
+      "name": "趋势与补货建议",
+      "identity": "电商需求预测与补货规划分析员",
+      "category": "库存供应链",
+      "business_domain": "replenishment",
+      "dependencies": [
+        "AG02",
+        "AG03"
+      ],
+      "file": "roles/AG04.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "28b3f16c47674ef815e7e3ff88b2e30cb85e89a9e08e0305ea6ab32f7e339174"
+    },
+    {
+      "id": "AG05",
+      "name": "总控与工作台交付",
+      "identity": "电商项目统筹与可视化工作台交付负责人",
+      "category": "公共能力",
+      "business_domain": "delivery",
+      "dependencies": [],
+      "file": "roles/AG05.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "8d797a26680c314c07de2a234485fa74a18aa16010f702f1bbcbd7183eacebe4"
+    },
+    {
+      "id": "AG06",
+      "name": "利润分析",
+      "identity": "电商商品与渠道贡献利润分析员",
+      "category": "经营分析",
+      "business_domain": "profit",
+      "dependencies": [
+        "AG03"
+      ],
+      "file": "roles/AG06.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "10bd85390fe42c974888c37d714168936e5eb4ceee39f939da398970e2651b1e"
+    },
+    {
+      "id": "AG07",
+      "name": "活动复盘",
+      "identity": "电商大促与营销活动复盘分析员",
+      "category": "经营分析",
+      "business_domain": "campaign_review",
+      "dependencies": [
+        "AG03"
+      ],
+      "file": "roles/AG07.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "bcb614de15c25f5e7811f93ca423ebb7e5e628a39a7accd39fc9b62e7996def0"
+    },
+    {
+      "id": "AG08",
+      "name": "目标与预算跟踪",
+      "identity": "电商项目目标与费用预算跟踪员",
+      "category": "经营分析",
+      "business_domain": "budget",
+      "dependencies": [],
+      "file": "roles/AG08.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "808ba6e7bd671f182ebbfe0333fc226c7efab7417f1f88ea67c4b54513f702ea"
+    },
+    {
+      "id": "AG09",
+      "name": "滞销与效期",
+      "identity": "电商库存周转、库龄与效期风险分析员",
+      "category": "库存供应链",
+      "business_domain": "aging_expiry",
+      "dependencies": [
+        "AG02",
+        "AG03"
+      ],
+      "file": "roles/AG09.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "b7b89813b53528994866e758a364a94cd6e91c7624106fcf91412a45ade4e059"
+    },
+    {
+      "id": "AG10",
+      "name": "采购与供应商",
+      "identity": "电商采购履约与供应商表现分析员",
+      "category": "库存供应链",
+      "business_domain": "procurement",
+      "dependencies": [],
+      "file": "roles/AG10.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "dc0eea12a82579636eabd932df16686139251fb229d6b034c49a7e6f0befaf83"
+    },
+    {
+      "id": "AG11",
+      "name": "选品与竞品研究",
+      "identity": "电商品类选品与可比竞品研究员",
+      "category": "商品运营",
+      "business_domain": "product_research",
+      "dependencies": [],
+      "file": "roles/AG11.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "3848bf02bf305dc78d38448183734530540ade59e5b6cdad18fdc6db3213d7b7"
+    },
+    {
+      "id": "AG12",
+      "name": "定价与促销测算",
+      "identity": "电商定价、优惠叠加与订单贡献测算员",
+      "category": "商品运营",
+      "business_domain": "pricing",
+      "dependencies": [
+        "AG06"
+      ],
+      "file": "roles/AG12.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "fffd6bd534095409fd6ec3ab65be7ebe215d18d298bc59cf87079c65a742e4bb"
+    },
+    {
+      "id": "AG13",
+      "name": "新品上市",
+      "identity": "电商新品上市准备与冷启动观察协调员",
+      "category": "商品运营",
+      "business_domain": "launch",
+      "dependencies": [],
+      "file": "roles/AG13.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "788812077ed5926cedf1428c73502b7ea5e2198de4fd9de9360d39ff8493b12d"
+    },
+    {
+      "id": "AG14",
+      "name": "广告投放分析",
+      "identity": "电商广告归因与投放效率分析员",
+      "category": "流量内容",
+      "business_domain": "ads",
+      "dependencies": [],
+      "file": "roles/AG14.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "f136c5bba570484d6c312bc2e2485929f7dc848c950838f98a9a83a45d3fb648"
+    },
+    {
+      "id": "AG15",
+      "name": "商品详情优化",
+      "identity": "电商商品详情与购买信息优化编辑",
+      "category": "流量内容",
+      "business_domain": "listing",
+      "dependencies": [],
+      "file": "roles/AG15.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "f6cc26a237afee2c6c54931c23daa0a9f71b2105039c4511818d331d90be1784"
+    },
+    {
+      "id": "AG16",
+      "name": "内容策划",
+      "identity": "电商商品内容与可测试脚本策划员",
+      "category": "流量内容",
+      "business_domain": "content",
+      "dependencies": [],
+      "file": "roles/AG16.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "4bbd3c34a058de0cc668cb85bfd0d93dbd48f1bbd2c7591740e9863e0696b4d5"
+    },
+    {
+      "id": "AG17",
+      "name": "直播运营",
+      "identity": "电商直播排品与场次经营分析员",
+      "category": "流量内容",
+      "business_domain": "live",
+      "dependencies": [],
+      "file": "roles/AG17.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "1a2902bb4214ac0117cd2d0460a8382c4e09f6d243e13fa1be86013fc320a04e"
+    },
+    {
+      "id": "AG18",
+      "name": "评价与用户反馈",
+      "identity": "电商评价、咨询与客诉洞察分析员",
+      "category": "客服体验",
+      "business_domain": "feedback",
+      "dependencies": [],
+      "file": "roles/AG18.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "65c225ef6a129f54cbf9bcbc13b427e355339d0ae705cae6efaee4b9beb2a263"
+    },
+    {
+      "id": "AG19",
+      "name": "客服知识助手",
+      "identity": "电商商品与售后政策知识答复助手",
+      "category": "客服体验",
+      "business_domain": "service_kb",
+      "dependencies": [],
+      "file": "roles/AG19.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "00e5f309996ceb550f1d017c4cf541dfba4c0ab38c1a4342749748d4b43aa7d8"
+    },
+    {
+      "id": "AG20",
+      "name": "退款退货分析",
+      "identity": "电商退款退货队列与售后损失分析员",
+      "category": "客服体验",
+      "business_domain": "returns",
+      "dependencies": [],
+      "file": "roles/AG20.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "716d79e0b7e1425f80258cc458f68b80585219450f7b712cb7479046050080dd"
+    },
+    {
+      "id": "AG21",
+      "name": "平台账单对账",
+      "identity": "电商订单、平台结算与资金流水核对员",
+      "category": "财务核对",
+      "business_domain": "settlement",
+      "dependencies": [],
+      "file": "roles/AG21.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "cdc66f1c33f64dddf19cb71fb7a3edabf4c2d4a16acc565465242eb3859c2d71"
+    },
+    {
+      "id": "AG22",
+      "name": "SOP与培训",
+      "identity": "电商作业流程与案例培训设计员",
+      "category": "组织培训",
+      "business_domain": "training",
+      "dependencies": [],
+      "file": "roles/AG22.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "7b6cea66f04bf1838800053f8dca28052d8a022d720e29e9ee4d9f118cc2e05b"
+    },
+    {
+      "id": "AG23",
+      "name": "数据准确性复核",
+      "identity": "电商数据口径与结果准确性复核员",
+      "category": "公共能力",
+      "business_domain": "accuracy_review",
+      "dependencies": [
+        "AG01"
+      ],
+      "file": "roles/AG23.md",
+      "role_version": "0.4",
+      "validation_status": "awaiting_real_case",
+      "sha256": "d5335c8e3c32c2cd2d3afc8c3a793a3c815e148128ca133eb633cff410d6628d"
+    }
+  ],
+  "version": "1.2.0"
+}

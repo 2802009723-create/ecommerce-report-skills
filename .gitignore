@@ -1,0 +1,9 @@
+# Local files and generated working records
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+work/
+examples/**/generated/
