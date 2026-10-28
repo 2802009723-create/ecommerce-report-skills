@@ -5,7 +5,7 @@ display_name_en: Ecommerce Daily Report
 description: 电商日报助手。用户上传经营表格并要求日报、经营分析或可视化工作台时，按需调用内置23个Ag的电商方法，完成数据校验、计算、图表、建议与复核，交付可离线打开的HTML。支持销售、库存补货、投放、售后、利润结算、大促、直播等，不需要用户另外填写任务书或上传角色库及模板。
 description_zh: 上传表格、说出需求，自动选择电商Ag方法，生成带图表、简短建议与复核记录的HTML日报。
 description_en: Analyze ecommerce spreadsheets with relevant built-in role methods and deliver an offline HTML daily report with charts, recommendations and verification records.
-version: 1.2.0
+version: 1.2.1
 ---
 
 # 电商日报助手

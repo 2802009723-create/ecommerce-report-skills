@@ -649,7 +649,9 @@ SOFTWARE.
   ]
 }
 </script>
-</head>
+<style id="showcase-mode-style">
+html[data-preview] body{padding:0;margin:0;background:white}html[data-preview] .public-demo-nav,html[data-preview] .top-tools{display:none!important}html[data-preview] .paper{max-width:none;margin:0;padding:24px;background:white;box-shadow:none}html[data-preview] .paper> :not(.report-module){display:none}html[data-preview] .report-module{padding-top:0;margin-top:0}html[data-preview] .report-module:not(#module-0){display:none}html[data-preview="charts"] .interpretation,html[data-preview="charts"] .module-limit,html[data-preview="charts"] .evidence{display:none}html[data-preview="charts"] .fig .chart{height:300px}html[data-preview="advice"] .metric-list,html[data-preview="advice"] .fig,html[data-preview="advice"] .evidence{display:none}html[data-preview="evidence"] .metric-list,html[data-preview="evidence"] .fig,html[data-preview="evidence"] .interpretation{display:none}html[data-preview="evidence"] .paper>.review,html[data-preview="evidence"] .paper>.notes{display:block}html[data-preview] .module-heading h2{font-size:22px}html[data-preview] .module-heading p{font-size:14px}html[data-preview] p,html[data-preview] li{font-size:14px}html[data-preview] .notes p{overflow-wrap:anywhere}@media(max-width:600px){html[data-preview] .paper{padding:16px}html[data-preview] .metric-list{gap:10px}html[data-preview] .metric-list dd{font-size:25px}}
+</style><script id="showcase-mode">const showcaseMode=new URLSearchParams(location.search).get('preview');if(['charts','advice','evidence'].includes(showcaseMode))document.documentElement.dataset.preview=showcaseMode;</script></head>
 <body><aside class="public-demo-nav" data-site-nav style="padding:12px 24px;background:#e7f2f5;display:flex;gap:18px;flex-wrap:wrap;font:14px/1.6 system-ui"><strong>合成数据演示</strong><a href="index.html">项目首页</a><a href="install.html">用相同表格试跑</a><a href="downloads/sample-tables-and-report.zip" download>下载演示表格</a></aside>
 <div class="top-tools"><button id="printReport">打印 / 保存 PDF</button><button id="downloadData">下载结果数据</button></div>
 <article class="paper" id="report"></article>

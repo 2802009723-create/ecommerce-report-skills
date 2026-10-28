@@ -1,12 +1,12 @@
 {
   "name": "ecommerce-daily-report",
   "display_name": "电商日报助手",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "role_count": 23,
   "report_type_count": 10,
   "files_sha256": {
     "LICENSE": "83651ed76aba76ead5652e0b36dc9b85a5984abc27eaa232515d240ab022fd5a",
-    "SKILL.md": "f670faa8b3d97d27a4d01d74d2c93e1f49fa0c0182b18f5c328d3ab66e64571a",
+    "SKILL.md": "ad614e9e977c9bf1bdda07d230c11979a53daa4807a5165a2b1dd5ea5f75d161",
     "assets/THIRD-PARTY-LICENSE.txt": "c7078d7672a5c5f3f8d1c2951090c6bd1b1b8fc71871b235c7188c7da22e24d6",
     "assets/report-template.html": "c5834452ec9a672cfeb0af50a9e248f61c28b770c8b335c6e6ff3d3c61c09e51",
     "references/protocol.md": "2e119f2ff4c4b9bfe8ef646beac419fca2588909e02de46575355e9403409f8c",
@@ -22,7 +22,7 @@
     "references/report-types/service.md": "d8b096db8e81d2bda1110bcdf93b5c6efb8384677bc1832c37c0ecb7b12b8424",
     "references/report-types/store.md": "18dbcb8e4c925f966995675b221cc4a991c2aaca95d44770f5e9a9180ed6d9d5",
     "references/role-index.md": "41418f9f42e7d716b4650af5c09fc25623ef10d942dc7a97c5b4f5a02182b29a",
-    "references/role-manifest.json": "a7a894ba3394aa22451cc9106c4d09b446c5421a566bf345f49ad4c875688797",
+    "references/role-manifest.json": "888d041da9620f526d2dfbb8bd64441254f2aa62d113c0e0b9b0d560f123c9a7",
     "references/roles/AG01.md": "f9d7213076fcb0060df6cffeeb0faf534688c6d850ddbe2105b5a788dc0119e3",
     "references/roles/AG02.md": "fa5c625b503e8d41a6dced4fb8c360a275a05d67d5431299491d42787e1f060f",
     "references/roles/AG03.md": "66022d2c5ffe5e57e76a87fe33d13eea41246dfe02f35463a9d98eebe70b2a8d",
@@ -50,6 +50,6 @@
     "scripts/inspect_tables.py": "6cb1e16ff0a5584233a70dadfd4652b0c8e42a94333477a8f000081ddec61689",
     "scripts/render_report.py": "331bd57783fc59b547375fdd3a45abe7616cb2be836c8d6e4e1194427f002f2e",
     "scripts/tables.py": "cdec766dc4b8a0e305f6ee29ff6e853f5deffe1432c37a09b128d54db6057c79",
-    "安装与开始.txt": "b2454b529b0ba028c57cf3c42b22ae9588f32fa5bb9df3a6be8dba06170c9675"
+    "安装与开始.txt": "445162d97ad1e5022705b595f295cfcf175d8952f7b8c7246b578da6487040dc"
   }
 }

@@ -1,6 +1,6 @@
-电商日报助手 v1.2.0 · 开始使用
+电商日报助手 v1.2.1 · 开始使用
 
-1. 下载 ecommerce-daily-report-v1.2.0.zip（这是技能安装包，不是 GitHub 的 Source code ZIP）。
+1. 下载 ecommerce-daily-report-v1.2.1.zip（这是技能安装包，不是 GitHub 的 Source code ZIP）。
 2. WorkBuddy → 专家·技能·连接器 → 技能 → 添加技能 → 上传技能，选择该 ZIP。入口名称可能随客户端版本调整。
 3. 新建任务、上传 Excel/CSV/TSV，发送：
 “用电商日报助手分析这些表格，生成带图表和行动建议的日报。重点看销售、库存和补货；缺依据的内容标待确认。”

@@ -4,7 +4,7 @@
 
 23 个电商 Ag 角色方法，10 类日报适配，集成在一个 Skill 中。面向业务人员与培训者：上传表格、说清需求，在支持技能与文件工具的 AI 工作环境中生成可离线打开的 HTML 日报。
 
-[在线体验](https://2802009723-create.github.io/ecommerce-report-skills/) · [下载技能安装包](https://github.com/2802009723-create/ecommerce-report-skills/releases/download/v1.2.0/ecommerce-daily-report-v1.2.0.zip) · [演示表格与结果](https://2802009723-create.github.io/ecommerce-report-skills/downloads/sample-tables-and-report.zip) · [使用说明](https://2802009723-create.github.io/ecommerce-report-skills/install.html)
+[在线体验](https://2802009723-create.github.io/ecommerce-report-skills/) · [下载技能安装包](https://github.com/2802009723-create/ecommerce-report-skills/releases/download/v1.2.1/ecommerce-daily-report-v1.2.1.zip) · [演示表格与结果](https://2802009723-create.github.io/ecommerce-report-skills/downloads/sample-tables-and-report.zip) · [使用说明](https://2802009723-create.github.io/ecommerce-report-skills/install.html)
 
 ![合成表格生成的销售、库存与补货日报](docs/assets/report-preview.png)
 
@@ -12,7 +12,7 @@
 
 ## 三步开始
 
-1. 下载 **ecommerce-daily-report-v1.2.0.zip**。不要用 GitHub 自动提供的整个仓库 Source code ZIP 安装技能。
+1. 下载 **ecommerce-daily-report-v1.2.1.zip**。不要用 GitHub 自动提供的整个仓库 Source code ZIP 安装技能。
 2. 在 WorkBuddy 的“专家·技能·连接器 → 技能 → 添加技能 → 上传技能”中安装 ZIP（入口可能随版本变化）。
 3. 新建任务，上传 Excel / CSV / TSV，发送：
 

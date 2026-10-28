@@ -1,3 +1,3 @@
-f369fe9ce7a792ddb7a031c4776c99cbc6143dcd67433bd3362823a3d1bb28ff  ecommerce-daily-report-v1.2.0.zip
-694215ff95b35cd2dbd6f6c650e9d6230bc1a4235238465254c1be753de7f61e  ecommerce-report-offline.zip
-30589a5ae3748780997548db1be41e402a4d48e3bd4d849cd677801cee6e89b9  sample-tables-and-report.zip
+174b4973264307d539e137c91268168a07e00258b0ba44cd80a3aa306134ec2b  ecommerce-daily-report-v1.2.1.zip
+e2f88a59586873e6ab1a942d7f01c453ab2297ffa1bfcf3e5dbab622f521a073  ecommerce-report-offline.zip
+701917a5250ee3eb1a5ed19b7783808bc5fe2db2f5cb7eef6d9ded9f8963198a  sample-tables-and-report.zip
